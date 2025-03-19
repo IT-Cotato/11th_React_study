@@ -5,9 +5,9 @@ IT 연합동아리 코테이토 소속 리액트 라이브러리 스터디입니
 
 
 ## MEMBER
-|![양희정](https://github.com/DandelionQZ.png) |  | ![송승희](https://github.com/judexcleo.png) | ![하지민](https://github.com/JiiminHa.png) | ![한정현](https://github.com/JungHyunHann.png) |
+|![양희정](https://github.com/DandelionQZ.png) | ![김민아](https://github.com/kimminna.png) | ![송승희](https://github.com/judexcleo.png) | ![하지민](https://github.com/JiiminHa.png) | ![한정현](https://github.com/JungHyunHann.png) |
 |:---:|:---:|:---:|:---:|:---:|
-| [양희정](https://github.com/DandelionQZ) | [김민아]() | [송승희](https://github.com/judexcleo) | [하지민](https://github.com/JiiminHa) | [한정현](https://github.com/JungHyunHann) |
+| [양희정](https://github.com/DandelionQZ) | [김민아](https://github.com/kimminna) | [송승희](https://github.com/judexcleo) | [하지민](https://github.com/JiiminHa) | [한정현](https://github.com/JungHyunHann) |
 | [11기 FE] | [11기 FE] | [11기 FE] | [11기 FE] | [11기 FE] |
 
 
