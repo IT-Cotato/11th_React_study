@@ -51,7 +51,7 @@ IT 연합동아리 코테이토 소속 리액트 라이브러리 스터디입니
 | 12주차 (6/9-6/15) | 파트 12,13 | 파트 12,13 | 기말 기간 | 파트 12,13 | 기말 기간 |
 | (6/16-6/22) | - | - | 파트 12.13-19 | - | - |
 | (6/23-6/29) | - | - | - | - | - |
-| 강의 명(링크) | [따라하며 배우는 리액트 A-Z[19버전 반영]](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8) | [따라하며 배우는 리액트 A-Z[19버전 반영]](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8) |  [한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지](https://inf.run/FiFhg) |  | [한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%EB%A6%AC%EC%95%A1%ED%8A%B8) |
+| 강의 명(링크) | [따라하며 배우는 리액트 A-Z[19버전 반영]](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8) | [따라하며 배우는 리액트 A-Z[19버전 반영]](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8) |  [한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지](https://inf.run/FiFhg) | [따라하며 배우는 리액트 A-Z[19버전 반영]](https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8) | [한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%EB%A6%AC%EC%95%A1%ED%8A%B8) |
 
 
 
