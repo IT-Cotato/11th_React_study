@@ -125,66 +125,197 @@ console.log(res);
 
 ### 조건문
 
+- if 조건문
+
+```
 if (a >= 5) {
 console.log("5 이상");
 } else {
 console.log("5 이하");
 }
+```
 
+- switch문
+
+```
+let country = "ko";
 switch (country) {
 case "ko":
 console.log("한국");
 break;
-default:
+case "us"
+console.log("미국");
+default: // 정의되지 않은 케이스일 때
 console.log("미분류");
 }
+```
+
+### 반복문
+
+for (초기식; 조건식 ; 증감식){
+console.log("반복 ");
+}
+
+```
+for (let idx = 1; idx <=10; idx++){
+  if (idx %2 ===0){
+    continue; // 아래의 코드를 실행하지 않고 바로 다음 번복회차
+  }
+  if (idx >5){
+    break;
+  }
+}
+```
 
 ### 함수
 
-기본 함수
-function getArea(width, height) {
-return width \* height;
+- 함수 선언
+
+```function getArea(width, height) {
+let area = width * height;
+return area;
 }
-console.log(getArea(100, 200));
-함수 표현식 & 화살표 함수
+let area1 = getArea(100,200);
+console.log(area1);
+```
+
+- 함수 표현식 & 화살표 함수
+
+```
 let helloA = function() {
 return "안녕하세요";
 };
 
-const helloC = () => {
+let const helloC = () => {
 return "안녕하세요";
 };
+```
 
 ### 콜백 함수
 
-function checkMood(mood, goodCallback, badCallback) {
-if (mood == "good") goodCallback();
-else badCallback();
+= 자신이 아닌 다른 함수에 , 인수로서 전달된 함수를 의미함
+
+```
+fuction main(value){
+  console.log(1);
+  console.log(2);
+  value();
 }
+fucntion sub(){
+  console.log("iam sub");
+}
+main(sub);
+
+```
+
+- 콜백함수의 활용
+
+```
+function repeat(count){
+  for (let idx = 1; idx <= count; idx++){
+    console.log(idx);
+  }
+}
+function repeatDouble(count){
+  for (let idx = 1; idx <= count; idx++){
+    console.log(idx*2);
+  }
+}
+repeat(3);
+repeatDouble(3);
+
+```
+
+콜백함수를 응용해보면
+
+```
+function repeat(count,callback){
+  for (let idx = 1; idx <= count; idx++){
+    callback(idx);
+  }
+}
+
+repeat(3, function(idx){
+  console.log(idx);
+});
+repeat(5, function(idx){
+  console.log(idx*2);
+});
+```
+
+### 스코프
+
+= 변수나 함수에 접근하거나 호출할 수 있는 범위
+전역 스코프 : 전체 영역에서 접근 가능
+지역 스코프 : 특정 영역에서만 접근 가능
+
+```
+let a = 1; // 전역스코프
+function funcA(){
+  let b = 2; // 지역스코프
+  console.log(a);
+}
+funcA();
+```
 
 ### 객체
 
+```
 let person = {
 name: "이정환",
-age: 25
+age: 25,
+location: "신촌",
+"like cat" : true,
+};
+- 특정 프로퍼티에 접근
+let name = person.name;
+console.log(name);
+
+let age = person["age"];
+let property = "location";
+let location = person[property];
+
+console.log(age);
+console.log(hobby);
+```
+
+- 새로운 프로퍼티 추가
+
+```
+person.job = "FE developer";
+person[favoriteFood] = "떡볶이";
+```
+
+- 프로퍼티 삭제
+  delete person.job;
+  delete person["favoriteFood"];
+
+* 상수 객체 : const animal = {};
+  = 저장되어있는 객체 값의 property 수정 및 삭제 가능
+
+- 메서드
+  : 값이 함수인 프로퍼티
+
+```
+const person = {
+  name : "taylor",
+  //method
+  sayHi(){
+     console.log("Hi!!");
+  },
 };
 
-console.log("name" in person); // true
-person.name = null;
+person.sayHi();
+person["sayHi]();
+```
 
 ### 배열
 
+let arrA = new Array(); //생성
+let arrB = []; //생성
 let arr = [1, "2", true, null];
 arr.push({ key: "value" });
 console.log(arr.length);
-
-### 반복문
-
-for (let i = 1; i <= 100; i++) {
-console.log("winterlood");
-}
-
-const keys = Object.keys(person);
 
 ### 배열 내장 함수
 
