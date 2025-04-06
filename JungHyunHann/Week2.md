@@ -57,8 +57,6 @@ console.log("손님 2 도착");
 - **Microtask Queue**: Promise처럼 우선 처리할 짧은 작업
 - **Event Loop**: 대기 중인 작업을 Call Stack에 하나씩 밀어넣는 조율자
 
-👉 [Loupe 시뮬레이터 링크](https://latentflip.com/loupe/)로 직접 체험해볼 수 있음
-
 ---
 
 ### ✅ 키포인트 정리
