@@ -84,6 +84,8 @@ function handleClick(e) {
 }
 ```
 
+---
+
 ### 6. 응용: 이벤트 한 번만 실행하기
 
 ```jsx
