@@ -231,7 +231,7 @@ addNumber(3, 4).then((addedNumberRes) => {
 })
 ```
 하지만 위처럼 사용하면 콜백지옥과 다를바가 없다. then 메소드 안에 계속해서 콜백을 호출하는 것이 아닌, 프로미스를 반환하는 함수 자체를 리턴해줌으로써 이를 해결할 수 있다.
-``
+```
 addNumber(3, 4).then((addedNumberRes) => {
     console.log('addNumber result: ', addedNumberRes);
     return timesTwo(addedNumberRes);
@@ -242,7 +242,7 @@ addNumber(3, 4).then((addedNumberRes) => {
       console.log('makeNegative result: ', makeNegativeRes);
   })
 })
-``
+```
 ### async, await
 
 함수 앞에 async를 붙이면 해당 함수는 프로미스를 반환하게 된다.
