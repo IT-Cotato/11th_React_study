@@ -47,6 +47,8 @@ console.log('코드 끝');
 
 위 코드를 실행해보면 taskA 함수가 실행완료될때까지 기다리지 않고 '코드 끝'이 먼저 출력된 후 taskA 함수의 'A 작업 끝' 문자열이 출력된다.
 
+---
+
 ### 자바스크립트의 비동기 방식 동작원리
 
 자바스크립트 코드는 브라우저에 탑재되어 있는 자바스크립트 엔진을 이용해서 해석되고 실행된다.
@@ -71,6 +73,7 @@ Web APIs는 일종의 extra queue라고 생각할 수 있는데, 여기서 delay
 
 ![](https://velog.velcdn.com/images/tmdgml110806/post/639dc878-d3bb-437b-85f9-5f02e33d8aeb/image.png)
 
+--- 
 
 ### 콜백지옥
 
@@ -117,6 +120,7 @@ addNumber(3, 4, (addedNumberRes) => { // addNumber 함수 실행
 }
 
 ```
+---
 #### Promise를 이용한 콜백지옥 탈출
 
 ES6에서 추가된 Promise 객체를 활용해서 콜백지옥을 해결할 수 있다.
@@ -243,6 +247,9 @@ addNumber(3, 4).then((addedNumberRes) => {
   })
 })
 ```
+
+---
+
 ### async, await
 
 함수 앞에 async를 붙이면 해당 함수는 프로미스를 반환하게 된다.
