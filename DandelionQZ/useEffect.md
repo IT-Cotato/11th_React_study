@@ -13,7 +13,7 @@
 
 
 ### 의존성
-![useEffect_Dependencies](DandelionQZ/img/useEffect_Dependencies.png)
+![useEffect_Dependencies](./img/useEffect_Dependencies.png)
 
 (드래그 된 부분이 의존성 부분이다.)
 
