@@ -34,6 +34,7 @@
 ### 3. React의 주요 개념
 
 #### (1) 컴포넌트 기반 UI
+![](https://velog.velcdn.com/images/tmdgml110806/post/043d8a2e-fa1a-47f2-a13c-68e7eb4a06bc/image.png)
 - UI를 여러 개의 **컴포넌트**로 나누어 개발
 - 각 컴포넌트는 **모듈화**되어 재사용 가능
 - 유지보수에 유리하며, 중복 코드를 줄일 수 있음
@@ -46,9 +47,10 @@
   → 목적을 이루기 위한 모든 과정을 상세히 설명 (JavaScript 전통 방식)
 
 #### (3) 화면 업데이트가 빠르게 처리됨
+![](https://velog.velcdn.com/images/tmdgml110806/post/24456f03-5713-47f4-9efb-bc42b53a77aa/image.png)
 - 브라우저에서 **layout, painting** 과정은 시간이 오래 걸림
 - **JavaScript**: DOM 수정을 최소화하여 성능 개선  
-  → 동시에 발생한 업데이트를 모아서 **한 번에 DOM 수정**
+  → 동시에 발생한 업데이트를 모아서 **한 번에 DOM 수정**ㅎㅐㅇㅑ
 - **React**: 이를 자동으로 처리  
   → **Virtual DOM** 사용  
   → 실제 DOM 대신 Virtual DOM을 수정  
