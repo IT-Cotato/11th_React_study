@@ -54,7 +54,8 @@ function FocusInput() {
   );
 }
 ```
--> useState 는 값이 바뀔 때 화면을 다시 그려주는데, 떄로는 화면을 바꾸지 않고 값만 저장하고 싶을 때, useRef 를 사용
+useState는 화면을 다시 그려주는데, 화면을 바꾸지 않고 값만 바꾸고 싶을 때 useRef 사용
+
 ---
 
 ### 2. `setInterval` 관리
